@@ -1,0 +1,150 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #005073;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 80, 115, 0.8), rgba(0, 80, 115, 0.8)), url('../images/hero-placeholder.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #e67e22;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #005073;
+}
+
+.about p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Carousel Section */
+.carousel {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.carousel h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #005073;
+}
+
+.carousel-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.carousel-item {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 0 0 30%;
+    text-align: center;
+}
+
+/* Rodapé */
+footer {
+    background-color: #005073;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 20px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #f39c12;
+}

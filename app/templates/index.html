@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - Olinox{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <h1>Bem-vindo à Olinox</h1>
+    <p>Excelência em metalurgia e manutenção industrial.</p>
+    <a href="{{ url_for('services') }}" class="btn">Conheça nossos serviços</a>
+</section>
+
+<section class="about">
+    <h2>Sobre Nós</h2>
+    <p>A Olinox é referência no mercado, com projetos que garantem qualidade e segurança para todos os nossos clientes.</p>
+</section>
+
+<section class="carousel">
+    <h2>Serviços Realizados</h2>
+    <div class="carousel-container">
+        <div class="carousel-item">Serviço 1</div>
+        <div class="carousel-item">Serviço 2</div>
+        <div class="carousel-item">Serviço 3</div>
+    </div>
+</section>
+{% endblock %}
