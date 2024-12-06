@@ -10,5 +10,5 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
-from .routes import *
-from .models import *
+from .routes import routes
+app.register_blueprint(routes)

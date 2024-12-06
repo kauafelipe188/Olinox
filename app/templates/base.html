@@ -12,11 +12,12 @@
         <div class="logo">Olinox</div>
         <nav>
             <ul>
-                <li><a href="{{ url_for('index') }}">Home</a></li>
-                <li><a href="{{ url_for('services') }}">Serviços</a></li>
-                <li><a href="{{ url_for('projects') }}">Projetos</a></li>
-                <li><a href="{{ url_for('contact') }}">Contato</a></li>
-                <li><a href="{{ url_for('login') }}" class="admin-login">Admin</a></li>
+                <li><a href="{{ url_for('routes.home') }}">Home</a></li>
+                <li><a href="{{ url_for('routes.services') }}">Serviços</a></li>
+                <li><a href="{{ url_for('routes.projects') }}">Projetos</a></li>
+                <li><a href="{{ url_for('routes.contact') }}">Contato</a></li>
+                <li><a href="{{ url_for('routes.login') }}" class="admin-login">Admin</a></li>
+
             </ul>
         </nav>
     </header>

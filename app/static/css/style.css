@@ -148,3 +148,99 @@ footer ul li a {
 footer ul li a:hover {
     color: #f39c12;
 }
+/* Estilo para a página de serviços */
+.services, .projects {
+    margin: 20px;
+    padding: 20px;
+}
+
+.service-list, .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service-item, .project-item {
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 20px);
+}
+
+.service-item h2, .project-item h2 {
+    color: #004d40;
+}
+
+.service-item p, .project-item p {
+    color: #333;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #004d40;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+form button:hover {
+    background-color: #00332b;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #004d40;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form button:hover {
+    background-color: #00332b;
+}
